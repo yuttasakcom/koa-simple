@@ -1,0 +1,30 @@
+{
+  "name": "koa-simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuttasakcom/koa-simple.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuttasakcom/koa-simple/issues"
+  },
+  "homepage": "https://github.com/yuttasakcom/koa-simple#readme",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "nodemon": "^1.19.1"
+  }
+}
